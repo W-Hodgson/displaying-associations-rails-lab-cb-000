@@ -6,7 +6,7 @@
   </head>
   <body>
     <% @songs.each do |song| %>
-      <%= %>
+      <%= link_to  %>
       <p><%= song.artist_name %> <%= song.title %></p>
     <% end %>
   </body>
