@@ -6,7 +6,7 @@
   </head>
   <body>
     <% @artists.each do |artist| %>
-      <%= link_to "#{artist.name}" %>
+      <%= link_to "Artist Name: #{artist.name}  Song Count #{artist.song_count}"%>
     <% end %>
   </body>
 </html>
